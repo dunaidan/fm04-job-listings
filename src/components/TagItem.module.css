@@ -1,0 +1,8 @@
+.tagButton {
+  text-transform: none !important;
+  font-weight: 700 !important;
+}
+
+.tagButton:hover {
+  color: white;
+}
