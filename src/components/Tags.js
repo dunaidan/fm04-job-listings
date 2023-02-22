@@ -11,7 +11,7 @@ function Tags({ level, languages, tools }) {
 
   const languagesTags = languages.map((langauge) => {
     return {
-      type: 'langauges',
+      type: 'languages',
       title: langauge
     } 
   })
