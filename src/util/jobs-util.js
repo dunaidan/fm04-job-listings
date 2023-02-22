@@ -5,7 +5,6 @@ export function getAllJobs() {
 }
 
 export function searchJobs(seatchTags) {
-  console.log("SEARCH TAGS", seatchTags);
 
   const filteredJobs = data.filter((job) => {
     let res = true;

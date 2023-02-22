@@ -11,7 +11,6 @@ const SearchContext = createContext({
 
 export function SearchContextProvider({ children }) {
   const [searchTags, setSearchTags] = useState([]);
-  console.log("SearchTags", searchTags);
 
   const addSearchTagHandler = (tag) => {
     setSearchTags((prevSearchTags) => {

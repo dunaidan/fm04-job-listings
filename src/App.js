@@ -15,12 +15,10 @@ function App() {
 
   const searchCtx = useContext(SearchContext);
 
-  // get all jobs when component is rendering for first time
   useEffect(() => {
     if (searchCtx.totalTags === 0) {
       setJobs(getAllJobs());
     } else {
-      console.log("to search", searchCtx.totalTags)
       setJobs(searchJobs(searchCtx.searchTags));
     }
     
